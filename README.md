@@ -13,3 +13,9 @@ https://github.com/Pavithra444444/LoveLocal_Assignment/blob/main/Easy_Section/RE
 #### Solutions for the problem statements with explanation of Logic and algorithm for the Medium problems:
 
 https://github.com/Pavithra444444/LoveLocal_Assignment/blob/main/Medium_Section/README.md
+
+## **Hard_Section**
+
+#### Solutions for the problem statements with explanation of Logic and algorithm for the Hard problems:
+
+https://github.com/Pavithra444444/LoveLocal_Assignment/blob/main/Hard_Section/README.md
