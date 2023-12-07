@@ -7,3 +7,5 @@ This repository contains the LoveLocal company's assignment as part of the recru
 #### Solutions for the problem statements with explanation of Logic and algorithm for the Easy problems:
 
 https://github.com/Pavithra444444/LoveLocal_Assignment/blob/main/Easy_Section/README.md
+
+
