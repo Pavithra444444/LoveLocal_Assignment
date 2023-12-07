@@ -6,11 +6,12 @@ A word is a maximal substring consisting of non-space characters only.
 
 Solution:
 
-  class Solution:
-  
-      def lengthOfLastWord(self, s: str) -> int:
+~~~
+class Solution:
+   def lengthOfLastWord(self, s: str) -> int:
           res=s.split()
           return len(res[-1])
+~~~
 
 Logic and Algorithm Explanation
 
@@ -49,6 +50,7 @@ height-balanced binary search tree.
 
 Solution:
 
+~~~
 class Solution:
 
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
@@ -60,7 +62,8 @@ class Solution:
         return TreeNode(
             nums[mid_node], 
             self.sortedArrayToBST(nums[:mid_node]), self.sortedArrayToBST(nums[mid_node + 1 :])
-        ) 
+        )
+~~~
 Logic and Algorithm Explanation
 
 This code defines a function sortedArrayToBST that takes a sorted array of integers nums as input and returns the root node of a balanced Binary Search Tree (BST).
@@ -107,8 +110,14 @@ The space complexity is O(log n) due to the call stack involved in the recursive
 Given an integer numRows, return the first numRows of Pascal's triangle.
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
 
+![image](https://github.com/Pavithra444444/LoveLocal_Assignment/assets/96220049/5ca42bd3-1b24-481e-ade6-caa8a4b7e035)
+
+
+
+
 Solution:
 
+~~~
 class Solution:
 
     def generate(self, numRows: int) -> List[List[int]]:
@@ -130,6 +139,7 @@ class Solution:
             result.append(current_row)
 
         return result
+~~~
 
 Explanation of Logic and Algorithm:
 
@@ -157,7 +167,9 @@ The inner loop iterates over all elements of the previous row (except the last e
 Inside the nested loops, the value at each position in the current row is calculated by adding the corresponding elements from the previous row:
 
 
+~~~
 current_row.append(prev_row[j - 1] + prev_row[j])
+~~~
 
 Finally, the value 1 is appended to current_row as the last element.
 
@@ -166,8 +178,9 @@ Finally, the value 1 is appended to current_row as the last element.
 The completed current_row is appended to result.
 Now, the previous row (prev_row) is updated to become the current row for the next iteration:
 
-
+~~~
 prev_row = current_row
+~~~
 
 6. Final Result:
 
