@@ -1,10 +1,9 @@
-**Easy 1**
+## **Easy 1**
 
 Given a string s consisting of words and spaces, return the length of the last word in the string.
-
 A word is a maximal substring consisting of non-space characters only.
 
-Solution:
+*Solution:*
 
 ~~~
 class Solution:
@@ -13,7 +12,7 @@ class Solution:
           return len(res[-1])
 ~~~
 
-Logic and Algorithm Explanation
+*Logic and Algorithm Explanation*
 
 The provided code defines a function lengthOfLastWord that takes a string s as input and returns the length of the last word in the string. The logic and algorithm implemented are as follows:
 
@@ -43,12 +42,12 @@ Space Complexity:
 
 The space complexity of this algorithm is also O(n), as it creates a new list containing all the words in the original string.
 
-**Easy  2**
+## **Easy  2**
 
 Given an integer array nums where the elements are sorted in ascending order, convert it to a 
 height-balanced binary search tree.   
 
-Solution:
+*Solution:*
 
 ~~~
 class Solution:
@@ -64,7 +63,7 @@ class Solution:
             self.sortedArrayToBST(nums[:mid_node]), self.sortedArrayToBST(nums[mid_node + 1 :])
         )
 ~~~
-Logic and Algorithm Explanation
+*Logic and Algorithm Explanation*
 
 This code defines a function sortedArrayToBST that takes a sorted array of integers nums as input and returns the root node of a balanced Binary Search Tree (BST).
 Here's a breakdown of the logic and algorithm:
@@ -105,7 +104,7 @@ Space Complexity:
 
 The space complexity is O(log n) due to the call stack involved in the recursive calls.
 
-**Easy 3**
+## **Easy 3**
 
 Given an integer numRows, return the first numRows of Pascal's triangle.
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
@@ -115,7 +114,7 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 
 
 
-Solution:
+*Solution:*
 
 ~~~
 class Solution:
@@ -141,7 +140,7 @@ class Solution:
         return result
 ~~~
 
-Explanation of Logic and Algorithm:
+*Explanation of Logic and Algorithm*
 
 This code defines a function generate that takes an integer numRows as input and returns a list of lists containing the elements of Pascal's triangle. Here's a breakdown of the logic and algorithm:
 
