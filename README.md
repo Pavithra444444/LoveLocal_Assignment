@@ -8,4 +8,8 @@ This repository contains the LoveLocal company's assignment as part of the recru
 
 https://github.com/Pavithra444444/LoveLocal_Assignment/blob/main/Easy_Section/README.md
 
+## **Medium_Section**
 
+#### Solutions for the problem statements with explanation of Logic and algorithm for the Medium problems:
+
+https://github.com/Pavithra444444/LoveLocal_Assignment/blob/main/Medium_Section/README.md
